@@ -53,7 +53,7 @@ How well those variables describe the bike demands
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
+- This project was inspired by Linear Model building assignments
 - References https://github.com/ContentUpgrad/Linear-Regression
 
 ## Contact
