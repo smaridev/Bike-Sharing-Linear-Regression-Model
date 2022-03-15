@@ -1,5 +1,9 @@
-# Project Name
-> Outline a brief description of your project.
+# Linear Regression Model for Bike Sharing System
+A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state. 
+
+The company wants to know:
+Which variables are significant in predicting the demand for shared bikes.
+How well those variables describe the bike demands
 
 
 ## Table of Contents
@@ -11,18 +15,25 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Develop a model to find the variables which are significant the demand for shared bikes with the available independent variables
+- It will be used by the management to understand and manipulate the business strategy to meet the demand levels and meet the customer's expectations.
+- Further, the model will be a good way for management to understand the demand dynamics of a new market.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- As per above analysis of the categorical variables from the dataset
+  * The season box indicates that more bikes rented during fall season
+  * The year 2019 indicates that more bikes rented
+  * The working day & holiday box indicate that more bikes rented during normal working days than on weekends or holidays.
+  * The weathersit box plots indicates that more bikes are rent during Clear Sky days
+- By looking at the pair plot 'temp' variable has the highest (0.84) correlation with target variable 'cnt'
+- Significant variables to predict the demand for shared bikes¶
+  * temp
+  * yr_2019
+  * Season(Spring,Summer,Winter)
+  * months(September, July)
+  * weathersit( Light Snow, Mist Cloudy)
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -37,12 +48,10 @@
 ## Acknowledgements
 Give credit here.
 - This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- References https://github.com/ContentUpgrad/Linear-Regression
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@smardev] - feel free to contact me!
 
 
 <!-- Optional -->
