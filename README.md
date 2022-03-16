@@ -35,6 +35,9 @@ How well those variables describe the bike demands
   * months(September, July)
   * weathersit( Light Snow, Mist Cloudy)
 
+- Significant variables which impacts the use of shared bikes¶
+  * weathersit( Heay_Rain)
+  * Less usage on months(Jan, Feb, Dec)  
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
@@ -56,7 +59,7 @@ How well those variables describe the bike demands
 - References https://github.com/ContentUpgrad/Linear-Regression
 
 ## Contact
-Created by [@smardev] - feel free to contact me!
+Created by [@smaridev] - feel free to contact me!
 
 
 <!-- Optional -->
